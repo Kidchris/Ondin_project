@@ -1,0 +1,107 @@
+.header {
+  font: 13px 27px Roboto, RobotoDraft, Arial, sans-serif;
+  text-align: right;
+  padding: 15px;
+  height: 48px;
+  margin: 4px;
+  top: 5px;
+  word-spacing: 15px;
+}
+#image:hover {
+  text-decoration: underline rgb(247, 240, 240);
+  color: black;
+}
+
+#mail:hover {
+  text-decoration: underline black;
+  color: black;
+}
+#connexion:hover {
+  text-decoration: underline red;
+}
+#connexion {
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 3px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  width: 50px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  display: inline;
+}
+
+footer {
+  position: fixed;
+  background-color: #f2f2f2;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+}
+#logo {
+  text-align: center;
+}
+
+.search {
+  height: 140%;
+  text-align: center;
+  padding: 20px;
+}
+.bar {
+  border-radius: 24px;
+  width: 584px;
+  height: 34px;
+  border: 1px solid #d6d0d0;
+  box-shadow: none;
+  padding: 24px;
+  border-width: 1px;
+}
+
+.bar:focus-within,
+.bar:hover {
+  border-color: white;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  outline: none;
+}
+
+.inbnt {
+  background-color: #f8f9fa;
+  height: 45px;
+  padding: 0px 16px;
+  margin: 11px 14px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #f8f9fa;
+  box-shadow: none;
+  border-width: 1px;
+}
+.btns {
+  text-align: center;
+}
+.inbnt:focus-within,
+.inbnt:hover {
+  border: 1px solid #96989b;
+  border-width: 1px;
+  background-color: #beccda;
+}
+.right {
+  text-align: right;
+  bottom: 10px !important;
+  padding: 0px 20px;
+  word-spacing: 15px;
+  positon: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
